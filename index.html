@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, footer, section, article, aside {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #eaeaea;
+        }
+        main {
+            display: flex;
+        }
+        article {
+            flex: 2;
+        }
+        aside {
+            flex: 1;
+            background-color: #f9f9f9;
+        }
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header: Contains the introductory content or navigational links for the website -->
+    <header>
+        <h1>Website Title</h1>
+        <p>A brief description of the website.</p>
+    </header>
+
+    <!-- Navigation: Contains the navigation links for the website -->
+    <nav>
+        <Ol>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </Ol>
+    </nav>
+
+    <!-- Main: Represents the main content area of the webpage -->
+    <main>
+        <!-- Article: Contains a standalone piece of content -->
+        <article>
+            <h2>Main Article Title</h2>
+            <p>This is the main content of the article. It's self-contained and can be distributed or syndicated.</p>
+            <section>
+                <h3>Article Section</h3>
+                <p>This is a section within the article. Sections can be used to group related content.</p>
+            </section>
+            <footer>
+                <p>Article Footer: Additional information or links related to the article.</p>
+            </footer>
+        </article>
+
+        <!-- Aside: Contains content related to the main content, such as sidebars -->
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#link1">Related Link 1</a></li>
+                <li><a href="#link2">Related Link 2</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Footer: Contains footer information for the website -->
+    <footer>
+        <p>Website Footer: Copyright &copy; 2024. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
